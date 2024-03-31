@@ -1,0 +1,35 @@
+:root{
+            --bg_site: #8797b4;
+            --bg_table: #ffffff ;
+            --c_border: #1d3664;
+            --c_th: #2a4b88;
+            --c_th_text: #ffffff;
+        }
+
+        body{
+            background-color: var(--bg_site);
+        }
+
+        table{
+            margin: auto;
+            text-align: center;
+            border-spacing: 0px;
+            background-color: var(--bg_table);
+        }
+
+        table, th, td{
+            border: 1px solid var(--c_border);
+            
+        }
+
+        th,td{
+            width: 600px;
+            
+        }
+
+        th{
+            background-color: var(--c_th);
+            color: var(--c_th_text);
+        }
+
+  
